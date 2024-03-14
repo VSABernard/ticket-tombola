@@ -9,8 +9,7 @@ const Page = () => {
             <div className="left-side">
                 <Aside />
             </div>
-            <div className="right-side">
-                <Infos />
+            <div className="right-side"><Infos />
             </div>
         </div>
     )

@@ -1,8 +1,22 @@
-.ticket-page {
+.ticket-page, .left-side, .right-side {
     display: flex;
     flex-direction: row;
-    margin: auto;
-    padding: 5px 10px;
+    justify-content: center;
+    margin: auto;  
+    width: 1024px;  
+}
+
+.ticket-page {
+    padding: 0 10px;
     gap: 20px;
     border: black;
+    width: 100%;
+}
+.left-side {
+    flex: 0.5;
+}
+
+.right-side {
+    flex: 1;
+    background: url(../assets/right-background.png) no-repeat center center fixed;
 }

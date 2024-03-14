@@ -5,7 +5,7 @@ import "./Infos.css";
 
 const Infos = () => {
     return(
-        <div className="InfosPage">
+        <div className="infos-page">
             <Header />
             <Price />
         </div>

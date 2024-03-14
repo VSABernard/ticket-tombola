@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header = () => {
     return(
-        <div className="InfosPage">
+        <div className="header">
             <h1>Ecole Les Hauts de Penfeld - Brest</h1>
             <h2>Tombola - Kermesse</h2>
             <h3>Samedi, le 15 juin 2024</h3>

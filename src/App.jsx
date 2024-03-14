@@ -1,15 +1,10 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-
+import React from "react"
 import "./style/_reset.css"
-import Infos from "./components/Infos/Infos"
+import Page from "./pages/Page"
 
 function App() {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Infos/>} />
-            </Routes>
-        </BrowserRouter>
+        <Page />
     )
 }
 

@@ -18,5 +18,9 @@
 
 .right-side {
     flex: 1;
-    background: url(../assets/right-background.png) no-repeat center center fixed;
+    background: url(../assets/right-background.png) ;
+    /*-webkit-background-size: auto;
+    -moz-background-size: auto ;
+    -o-background-size: auto ;*/
+    background-size: 100% 100% ;
 }

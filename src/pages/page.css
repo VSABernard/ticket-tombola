@@ -2,18 +2,17 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: auto;  
-    width: 1024px;  
+    width: auto;  
 }
 
 .ticket-page {
-    padding: 0 10px;
-    gap: 20px;
     border: black;
     width: 100%;
 }
 .left-side {
-    flex: 0.5;
+    flex: auto;
+    background: url(../assets/left-background.png);
+    background-size: 100% 100% ;
 }
 
 .right-side {

@@ -6,7 +6,7 @@ import "./Infos.css";
 const Infos = () => {
     return(
         <div className="infos-page">
-            <Header />
+            <Header className='header-infos'/>
             <Price />
         </div>
     )

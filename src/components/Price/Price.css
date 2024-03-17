@@ -1,16 +1,29 @@
-.price-infos, .first-place, .subt-price, .lottery-date, .buyer {
+.global-infos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.price-infos, .first-place, .subt-price, .lottery-date, .footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.price-infos {
+    width: 800px;
+    gap: 10px;
+}
+
 .first-place {
     height: 75px;
 }
 
 h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-family : Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
     margin: auto;
     text-align: center;
     height: 25px;
@@ -24,14 +37,46 @@ h4 {
 }
 
 .lottery-date {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.buyer {
+.lottery {
+    text-decoration: solid;
+    text-decoration-line: underline;
+}
+
+.date {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+
+.mail {
+    font-style: italic;
+    text-decoration: solid; 
+} 
+
+.footer {
     font-size: 12px;
+    font-weight: 500;
     font-style: italic;
     margin-bottom: 10px;
+}
+
+
+.ticket-number {
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+.ticket-number .number {
+    font-size: 23px;
+    font-weight: bold;
+    transform: rotateZ(-90deg) translateX(-140px);
+    width: 130px;
+    height: auto;
 }

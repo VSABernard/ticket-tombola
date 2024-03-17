@@ -3,4 +3,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    border-style: none none none dashed;
+    border-left-style: dashed solid;
 }

@@ -18,3 +18,15 @@
     font-weight: 600;
     margin-top: 10px;
 }
+
+.form-number {
+    display: block;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buyer p, .seller p {
+    font-size: 17px;
+}

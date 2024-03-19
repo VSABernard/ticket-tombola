@@ -1,4 +1,5 @@
 import React from "react";
+import Number from "../Number/Number";
 import "./Form.css";
 
 const Form = () => {
@@ -14,6 +15,9 @@ const Form = () => {
                 <p className="title">-- Le vendeur --</p>
                 <p className="data">Nom, Prénom de l'enfant:</p>
                 <p className="data">Classe :</p>
+            </div>
+            <div className="form-number">
+                <Number />
             </div>
             <div className="footer">
                 <p>-- Billet à conserver par le vendeur --</p>

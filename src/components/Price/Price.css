@@ -66,17 +66,17 @@ h4 {
     margin-bottom: 10px;
 }
 
-
-.ticket-number {
+/*.ticket-number {
     display: block;
     height: auto;
     width: auto;
-}
+}*/
 
-.ticket-number .number {
-    font-size: 23px;
+.ticket-number {
+    display: block;
+    font-size: 24px;
     font-weight: bold;
-    transform: rotateZ(-90deg) translateX(-140px);
+    transform: rotateZ(-90deg) translateX(-10px) translateY(150px);
     width: 130px;
     height: auto;
 }

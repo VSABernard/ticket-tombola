@@ -1,4 +1,5 @@
 import React from "react";
+import Number from "../Number/Number";
 import "./Price.css";
 
 const Price = () => {
@@ -8,7 +9,7 @@ const Price = () => {
                 <div className="first-price">
                     <h4>1er prix : Un week-end pour 2 adultes et 2 enfants au FUTUROSCOPE</h4>
                     <h4>2ème prix : Une tablette tactile LENOVO</h4>
-                    <h4>3ème prix : Une montre connecté XIAOMI</h4>
+                    <h4>3ème prix : Une montre connectée XIAOMI</h4>
                 </div>
                 <div className="subt-price">
                     <p>Et de nombreux lots à gagner !</p>
@@ -25,7 +26,7 @@ const Price = () => {
                 </div>
             </div>
             <div className="ticket-number">
-                <p className="number">N°: 000000</p>
+                <Number />
             </div>
         </div>
     )

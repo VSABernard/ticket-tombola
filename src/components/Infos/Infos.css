@@ -15,14 +15,16 @@
 }
 
 .badge {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 800;
     position: absolute;
+    margin-top: -75px;
+    margin-left: 15px;
 }
 
 .icon {
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
     margin-top: 35px;
     margin-right: 50px;
     color: yellow;

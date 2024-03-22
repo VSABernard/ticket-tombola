@@ -12,7 +12,7 @@ const Infos = () => {
                 <Header className='header-infos'/>
                 <div className="span-badge">
                     <FontAwesomeIcon className="icon" icon={faCertificate} />
-                    <span class="badge">1 €</span>
+                    <p class="badge">1 €</p>
                 </div>
                 
             </div>            

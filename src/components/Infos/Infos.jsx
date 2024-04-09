@@ -9,12 +9,13 @@ const Infos = () => {
     return(
         <div className="infos-page">
             <div className="head">
-                <Header className='header-infos'/>
+                <div className='header-infos'>
+                    <Header />
+                </div>                
                 <div className="span-badge">
                     <FontAwesomeIcon className="icon" icon={faCertificate} />
                     <p class="badge">1 €</p>
-                </div>
-                
+                </div>                
             </div>            
             <Price />
         </div>

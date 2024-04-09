@@ -1,25 +1,22 @@
 .ticket-page, .left-side, .right-side {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     width: auto;  
 }
 
 .ticket-page {
     border: black;
-    width: 100%;
+    width: 1024px;
+    height: 400px;
 }
 .left-side {
-    flex: auto;
+    width: 30%;
     background: url(../assets/left-background.png);
     background-size: 100% 100% ;
 }
 
 .right-side {
-    flex: 1;
+    width: 70%;
     background: url(../assets/right-background.png) ;
-    /*-webkit-background-size: auto;
-    -moz-background-size: auto ;
-    -o-background-size: auto ;*/
     background-size: 100% 100% ;
 }

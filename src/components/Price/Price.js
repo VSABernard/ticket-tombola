@@ -7,9 +7,9 @@ const Price = () => {
         <div className="global-infos">
             <div className="price-infos">
                 <div className="first-price">
-                    <h4>1er prix : Un week-end pour 2 adultes et 2 enfants au FUTUROSCOPE</h4>
+                    <h4>1er prix : Un week-end familial au Parc animalier et botanique de Branféré</h4>
                     <h4>2ème prix : Une tablette tactile LENOVO</h4>
-                    <h4>3ème prix : Une montre connectée XIAOMI</h4>
+                    <h4>3ème prix : Une enceinte bluetooth + des écouteurs bluetooth</h4>
                 </div>
                 <div className="subt-price">
                     <p>Et de nombreux lots à gagner !</p>

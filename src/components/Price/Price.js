@@ -2,7 +2,7 @@ import React from "react";
 import Number from "../Number/Number";
 import "./Price.css";
 
-const Price = () => {
+const Price = ({ticketNumber}) => {
     return(
         <div className="global-infos">
             <div className="price-infos">
@@ -18,7 +18,7 @@ const Price = () => {
                 <div className="lottery-date">
                     <p> <s className="lottery">TIRAGE AU SORT</s> : Le jour de la kermesse.</p>
                     <p>La liste des gagnants sera affichée à l’école et sur les réseaux sociaux.</p>
-                    <p>Les lots seront à retirer <s className="date">avant le 30/06/2024</s> !</p>
+                    <h5>Les lots seront à retirer <s className="date">avant le 30/06/2024</s> !</h5>
                     <p>Contact : <s className="mail">ape.les-hauts-de-penfeld@laposte.net</s></p>
                 </div>
                 <div className="footer">
@@ -26,7 +26,7 @@ const Price = () => {
                 </div>
             </div>
             <div className="ticket-number">
-                <Number />
+                <Number ticketNumber={ticketNumber}/>
             </div>
         </div>
     )

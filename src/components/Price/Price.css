@@ -3,7 +3,7 @@
     flex-direction: row;
     padding-top: 5px;
     margin-left: 20px;
-    margin-top: -20px;
+    margin-top: 20px;
 }
 
 .price-infos, .first-place, .subt-price, .lottery-date, .footer {
@@ -38,11 +38,19 @@ h4 {
     margin-bottom: 10px;
 }
 
-.lottery-date {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 15px;
+.lottery-date, h5 {
+    font-family:'Courier New', Courier, monospace;    
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+.lottery-date {
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-top: 0;
 }
 
 .lottery {

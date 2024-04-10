@@ -1,19 +1,19 @@
 import React from "react";
-import '../pages/Page.css'
+import '../pages/Ticket.css'
 import Infos from "../components/Infos/Infos";
 import Aside from "../components/Aside/Aside";
 
-const Page = () => {
+const Ticket = ({ticketNumber}) => {
     return (
         <div className="ticket-page">            
             <div className="left-side">
-                <Aside />
+                <Aside ticketNumber={ticketNumber}/>
             </div>
             <div className="right-side">
-                <Infos />
+                <Infos ticketNumber={ticketNumber}/>
             </div>
         </div>
     )
 }
 
-export default Page
+export default Ticket 

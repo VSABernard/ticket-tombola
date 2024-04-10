@@ -18,13 +18,14 @@
 
 .header-infos {
     width: 100%;
-    margin-top: -10px;
+    margin-top: -20px;
     margin-left: 100px;
     padding-top: 10px;
 }
 
 .span-badge {
-    margin-top: 10px;
+    position: relative;
+    margin-top: 15px;
 }
 
 .badge {
@@ -38,6 +39,7 @@
 .icon {
     height: 90px;
     width: 90px;
+    margin-top: -30px;
     margin-right: 50px;
     color: yellow;
 }

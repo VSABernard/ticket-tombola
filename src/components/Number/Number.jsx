@@ -1,10 +1,10 @@
 import React from "react";
 import "./Number.css"
 
-const Number = () => {
+const Number = ({ticketNumber}) => {
     return (
         <div className="number-ticket">
-            <p>N°. 00000</p>
+            <p>N°.{ticketNumber}</p>
         </div>
     )
 }

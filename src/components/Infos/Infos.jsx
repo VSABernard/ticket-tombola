@@ -5,7 +5,7 @@ import Header from "../Header/Header";
 import Price from "../Price/Price";
 import "./Infos.css";
 
-const Infos = () => {
+const Infos = ({ticketNumber}) => {
     return(
         <div className="infos-page">
             <div className="head">
@@ -17,7 +17,7 @@ const Infos = () => {
                     <p class="badge">1 €</p>
                 </div>                
             </div>            
-            <Price />
+            <Price ticketNumber={ticketNumber}/>
         </div>
     )
 }

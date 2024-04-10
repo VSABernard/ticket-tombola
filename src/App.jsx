@@ -1,10 +1,10 @@
 import React from "react"
 import "./style/_reset.css"
-import Page from "./pages/Page"
+import Ticket from "./pages/Ticket"
 
 function App() {
     return (
-        <Page />
+        <Ticket ticketNumber="000123"/>
     )
 }
 

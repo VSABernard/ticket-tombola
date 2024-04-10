@@ -2,7 +2,7 @@ import React from "react";
 import Number from "../Number/Number";
 import "./Form.css";
 
-const Form = () => {
+const Form = ({ticketNumber}) => {
     return(
         <div className="form">
             <section className="form-infos">
@@ -20,7 +20,7 @@ const Form = () => {
             </section>    
             <section className="form-footer">
                 <div className="form-number">
-                    <Number />
+                    <Number ticketNumber={ticketNumber}/>
                 </div>
                 <div className="footer">
                     <p>-- Billet à conserver par le vendeur --</p>

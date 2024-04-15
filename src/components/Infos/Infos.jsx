@@ -14,7 +14,7 @@ const Infos = ({ticketNumber}) => {
                 </div>                
                 <div className="span-badge">
                     <FontAwesomeIcon className="icon" icon={faCertificate} />
-                    <p class="badge">1 €</p>
+                    <p className="badge">1 €</p>
                 </div>                
             </div>            
             <Price ticketNumber={ticketNumber}/>

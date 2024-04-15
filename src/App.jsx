@@ -1,11 +1,20 @@
 import React from "react"
 import "./style/_reset.css"
-import Ticket from "./pages/Ticket"
+import Ticket from "./pages/Ticket" 
 
 function App() {
-    return (
-        <Ticket ticketNumber="000123"/>
+   
+  const totalNumber = 100
+
+  return Array.from(
+    { length: totalNumber },
+    (_, i) => (
+        <div>
+          <p className="dots">--</p>
+          <Ticket ticketNumber={i}/>    
+        </div>
     )
+  )    
 }
 
 export default App

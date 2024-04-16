@@ -5,17 +5,16 @@
 
 .form {
     justify-content: flex-start;
-    margin-top: 5px;
+    margin-top: 10px;
     gap: 5px;
 }
 
 .form-infos {
-    gap: 5px;
+    gap: 7px;
 }
 
-
 .title {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     font-style: italic;
     text-align: center;
@@ -36,22 +35,24 @@
 }
 
 .buyer p, .seller p {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .seller p {
     gap: 20px;
 }
 
+.form-footer {
+    margin-top: 2px;
+}
+
 .form-number {
-    display: block;
     height: auto;
     width: auto;
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
 }
 
-
 .footer p {
-    font-size: 9px;
+    font-size: 10px;
 }

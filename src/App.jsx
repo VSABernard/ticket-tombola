@@ -4,7 +4,7 @@ import Ticket from "./pages/Ticket"
 
 function App() {
    
-  const totalNumber = 10
+  const totalNumber = 5
 
   return Array.from(
     { length: totalNumber },

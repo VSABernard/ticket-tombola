@@ -7,7 +7,7 @@ const Price = ({ticketNumber}) => {
         <div className="global-infos">
             <div className="price-infos">
                 <div className="first-price">
-                    <h4>1er prix : Un week-end familial au Parc animalier et botanique de Branféré</h4>
+                    <h4>1er prix : Un week-end familial au Parc animalier et botanique de Branféré pour 2 adultes et 2 enfants</h4>
                     <h4>2ème prix : Une tablette tactile LENOVO</h4>
                     <h4>3ème prix : Une enceinte bluetooth + des écouteurs bluetooth</h4>
                 </div>

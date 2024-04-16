@@ -13,12 +13,12 @@ const Price = ({ticketNumber}) => {
                 </div>
                 <div className="subt-price">
                     <p>Et de nombreux lots à gagner !</p>
-                    <p>Place Brest Karting, Zoo de Banféré, 3 Curés, Penn Ar Bed, Climb Up ...</p>
+                    <p>Bowling Le Master, Brest Karting, Planète Sauvage, 3 Curés, Penn Ar Bed, Climb Up ...</p>
                 </div>
                 <div className="lottery-date">
                     <p> <s className="lottery">TIRAGE AU SORT</s> : Le jour de la kermesse.</p>
                     <p>La liste des gagnants sera affichée à l’école et sur les réseaux sociaux.</p>
-                    <h5>Les lots seront à retirer <s className="date">avant le 30/06/2024</s> !</h5>
+                    <h5>Les lots seront à retirer <s className="date">avant le 30/06/2024</s>!</h5>
                     <p>Contact : <s className="mail">ape.les-hauts-de-penfeld@laposte.net</s></p>
                 </div>
                 <div className="footer">

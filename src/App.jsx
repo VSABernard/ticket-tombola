@@ -4,14 +4,14 @@ import Ticket from "./pages/Ticket"
 
 function App() {
    
-  const totalNumber = 5
+  const totalNumber = 10
 
   return Array.from(
     { length: totalNumber },
     (_, i) => (
         <div>
-          <p className="dots">--</p>
-          <Ticket ticketNumber={i}/>    
+          <Ticket ticketNumber={i}/>
+          <p className="dots">-------------------------------------------</p>              
         </div>
     )
   )    

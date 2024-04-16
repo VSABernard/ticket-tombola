@@ -14,7 +14,7 @@ const Form = ({ticketNumber}) => {
                 </div>
                 <div className="seller">
                     <p className="title">-- Le vendeur --</p>
-                    <p className="data">Nom, Prénom de l'enfant:</p>
+                    <p className="data1">Nom, Prénom de l'enfant:</p>
                     <p className="data">Classe :</p>
                 </div>
             </section>    

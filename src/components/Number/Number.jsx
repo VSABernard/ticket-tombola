@@ -4,7 +4,7 @@ import "./Number.css"
 const Number = ({ticketNumber}) => {
     return (
         <div className="number-ticket">
-            <p>N°.{ticketNumber}</p>
+            <p>N°. {ticketNumber}</p>
         </div>
     )
 }

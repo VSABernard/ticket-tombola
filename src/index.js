@@ -32,7 +32,7 @@ const Exemple = () => {
   return (
     <div>
       <ComponentToPrint ref={componentRef} />
-      <button onClick={handlePrint}>Print this out!</button>
+      <button className='print-button' onClick={handlePrint}>Imprimer!</button>
     </div>
   )
 }

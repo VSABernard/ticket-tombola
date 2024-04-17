@@ -18,7 +18,7 @@
 
 .header-infos {
     width: 100%;
-    margin-left: 130px;
+    margin-left: 180px;
 }
 
 .span-badge {
@@ -39,6 +39,6 @@
     height: 90px;
     width: 90px;
     margin-top: 80px;
-    margin-right: 20px;
+    margin-right: 50px;
     color: rgb(249, 94, 4);
 }

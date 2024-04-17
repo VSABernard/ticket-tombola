@@ -1,17 +1,17 @@
 import React from "react"
-import "./style/_reset.css"
 import Ticket from "./pages/Ticket" 
+import "./style/_reset.css"
+import "./App.css"
 
 function App() {
 
-const start = 12
-const stop = 20
+const start = 1
+const stop = 30
 const step = 1
 
 return Array.from({ length: (stop- start) / step + 1 }, (_, i) => (
-    <div>
-        <Ticket ticketNumber={start + i * step}/>
-        <p className="dots">-------------------------------------------</p>              
+    <div className="appPage">
+        <Ticket ticketNumber={start + i * step}/>             
     </div>)
   ) 
 }

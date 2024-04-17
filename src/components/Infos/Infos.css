@@ -13,12 +13,12 @@
 .head {
     display: flex;
     flex-direction: row; 
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .header-infos {
     width: 100%;
-    margin-left: 65px;
+    margin-left: 130px;
 }
 
 .span-badge {
@@ -27,17 +27,18 @@
 }
 
 .badge {
-    font-size: 28px;
+    font-size: 38px;
     font-weight: 800;
+    color: aliceblue;
     position: absolute;
-    margin-top: -55px;
-    margin-left: 14px;
+    margin-top: -72px;
+    margin-left: 18px;
 }
 
 .icon {
-    height: 70px;
-    width: 70px;
-    margin-top: 85px;
+    height: 90px;
+    width: 90px;
+    margin-top: 80px;
     margin-right: 20px;
-    color: yellow;
+    color: rgb(249, 94, 4);
 }

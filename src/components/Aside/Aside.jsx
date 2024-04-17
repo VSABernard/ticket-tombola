@@ -6,7 +6,7 @@ import "./Aside.css";
 const Aside = ({ticketNumber}) => {
     return(
         <div className="aside-page">
-            <Header />
+            <Header className="aside-head"/>
             <Form ticketNumber={ticketNumber}/>
         </div>
     )

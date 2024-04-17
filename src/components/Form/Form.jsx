@@ -8,7 +8,7 @@ const Form = ({ticketNumber}) => {
             <section className="form-infos">
                 <div className="buyer">
                     <p className="title">-- L'acheteur --</p>
-                    <p className="data">Nom, Prénom :</p>
+                    <p className="data1">Nom, Prénom :</p>
                     <p className="data">Téléphone :</p>
                     <p className="data">E-mail :</p>
                 </div>

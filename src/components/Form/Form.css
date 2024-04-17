@@ -5,37 +5,34 @@
 
 .form {
     justify-content: flex-start;
-    margin-top: 10px;
-    gap: 5px;
+    margin-top: 7px;
+    gap: 10px;
 }
 
 .form-infos {
-    gap: 7px;
+    margin-top: 10px;
+    gap: 10px;
 }
 
 .title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     font-style: italic;
     text-align: center;
 }
 
 .data, .data1 {
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 600;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .data1 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .seller {
     margin-top: 5px;
-}
-
-.buyer p, .seller p {
-    font-size: 12px;
 }
 
 .seller p {
@@ -43,13 +40,11 @@
 }
 
 .form-footer {
-    margin-top: 2px;
+    padding-bottom: 13px;
 }
 
 .form-number {
-    height: auto;
-    width: auto;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 

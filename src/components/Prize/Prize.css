@@ -35,11 +35,11 @@ h4 {
 
 .subt-price {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     font-style: italic;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .lottery-date, h5 {
@@ -77,7 +77,7 @@ h4 {
 }
 
 .footer p {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .ticket-number {

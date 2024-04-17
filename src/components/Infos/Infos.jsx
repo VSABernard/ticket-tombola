@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCertificate } from '@fortawesome/free-solid-svg-icons'
 import Header from "../Header/Header";
-import Price from "../Price/Price";
+import Prize from "../Prize/Prize";
 import "./Infos.css";
 
 const Infos = ({ticketNumber}) => {
@@ -17,7 +17,7 @@ const Infos = ({ticketNumber}) => {
                     <p className="badge">1 €</p>
                 </div>                
             </div>            
-            <Price ticketNumber={ticketNumber}/>
+            <Prize ticketNumber={ticketNumber}/>
         </div>
     )
 }

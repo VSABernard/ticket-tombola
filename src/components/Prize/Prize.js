@@ -14,7 +14,7 @@ const Price = ({ticketNumber}) => {
                 <div className="subt-price">
                     <p>Et de nombreux lots à gagner !</p>
                     <p>Bowling Le Master, Brest Karting, Planète Sauvage, 3 Curés, Penn Ar Bed,</p>
-                    <p>Les articles de décoration BUT, ...</p>
+                    <p>Climb Up, les articles de décoration BUT, ...</p>
                 </div>
                 <div className="lottery-date">
                     <p> <s className="lottery">TIRAGE AU SORT</s > : Le jour de la kermesse.</p>
